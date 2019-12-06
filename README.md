@@ -1,6 +1,7 @@
 # Using Machine Learning to Predict Judicial Decisions
 A demonstration of the work done for my MSc Computer Science dissertation. The paper was published in the conference proceedings of the Irish Conference on Artificial Intelligence and Cognitive Science (AICS). 
 <br>
+<br>
 The work looked at predicting the outcome of judicial decisions made by the European Court of Human Rights (ECHR). This was done using Natural Langugae Processing (NLP) techniques and machine learning. 
 <br>
 <br>
