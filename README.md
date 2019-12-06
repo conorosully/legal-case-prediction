@@ -1,8 +1,19 @@
 # Using Machine Learning to Predict Judicial Decisions
-A demonstration of the work done for my dissertation for partial completion of a MSc Computer Science. 
+A demonstration of the work done for my dissertation for partial completion of a MSc Computer Science. The paper was published in the conference proceedings of the Irish Conference on Artificial Intelligence and Cognitive Science (AICS). 
+<br>
+<br>
+<b>Publication: <a href="http://aics2019.datascienceinstitute.ie/papers/aics_26.pdf"> here </a>
+<br>
+Conference proceedings:  <a href="http://aics2019.datascienceinstitute.ie/papers.html"> here </a>
+<br>
+Full dissertation: <a href="https://github.com/conorosully/legal-case-prediction/blob/master/dissertation.pdf"> dissertation.pdf </a>
+<br>
+<br>
+<a href="https://github.com/conorosully/legal-case-prediction/blob/master/0%20ECHR%20prediction%20demo.ipynb"> gives a simplied demonstration of the code. The full project can be found in src/ 
+  
 
-
-Code used to obtain results for dissertation: Using Machine Learning to Predict Judicial Decisions
+  
+ A simplified demonstration of the code can be found 
 
 Code in src folder can be viewed using Jupiter notebooks. Model features and embeddings can be found in the data folder.
 
