@@ -9,7 +9,7 @@ Conference proceedings:  <a href="http://aics2019.datascienceinstitute.ie/papers
 Full dissertation: <a href="https://github.com/conorosully/legal-case-prediction/blob/master/dissertation.pdf"> dissertation.pdf </a>
 <br>
 <br>
-<a href="https://github.com/conorosully/legal-case-prediction/blob/master/0%20ECHR%20prediction%20demo.ipynb"> gives a simplied demonstration of the code. The full project can be found in src/ 
+<a href="https://github.com/conorosully/legal-case-prediction/blob/master/0%20ECHR%20prediction%20demo.ipynb">0 ECHR prediction demo </a>gives a simplied demonstration of the code. The full project can be found in src/ 
   
 
   
