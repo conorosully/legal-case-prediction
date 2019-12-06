@@ -12,46 +12,67 @@ A demonstration of the work done for my dissertation for partial completion of a
 <a href="https://github.com/conorosully/legal-case-prediction/blob/master/0%20ECHR%20prediction%20demo.ipynb">0 ECHR prediction demo </a>gives a simplied demonstration of the code. The full project can be found in src folder
   
 
-  
- A simplified demonstration of the code can be found 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yla0">File</th>
+    <th class="tg-0lax"><span style="font-weight:bold">Purpose</span></th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">functions</td>
+    <td class="tg-0lax">Functions used throughout the project to help with data cleaning and model fitting</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">obtain_data</td>
+    <td class="tg-0lax">Obtain raw ECHR data using the API provided by Vizlegal</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">preclean_data</td>
+    <td class="tg-0lax">Extract HTML case text and case metadata from raw ECHR data</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">clean_dataset</td>
+    <td class="tg-0lax">Clean HTML case text so it is in a format ready to create model features</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">clean_attributes</td>
+    <td class="tg-0lax">Clean case metadata so it is in a format ready to create model features</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">create_embeddings</td>
+    <td class="tg-0lax">Create word echr2vec embeddings using ECHR documents</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">create_features</td>
+    <td class="tg-0lax">Create N-gram, average word embeddings and pharagraph embeddings feature matrices</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">fit_SVM</td>
+    <td class="tg-0lax">Train SVM (initial model prototype)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">fit_CNN</td>
+    <td class="tg-0lax">Train CNN (not in final paper as I ran out of time)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">fit_autoML</td>
+    <td class="tg-0lax">Code used to train models using AutoML framework</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">data_visualisations</td>
+    <td class="tg-0lax">Visualise dataset</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">results_visualisations</td>
+    <td class="tg-0lax">Visualise model results</td>
+  </tr>
+</table>
 
-Code in src folder can be viewed using Jupiter notebooks. Model features and embeddings can be found in the data folder.
-
-The following python notebooks are available in the src folder:
-
-----------------------------
-
-- obtain_data
-Used to obtain ECtHR documents using the API provided by Vizlegal
-
-----------------------------
-
-- preclean_data
-- clean_dataset
-- clean_attributes
-Used to clean documents and associated attributes so they are in a suitable form for Feature Engineering 
-
-----------------------------
-
-- create_embeddings
-Used to created echr2vec embeddings and doc2vec to models
-
-----------------------------
-
-- create_features
-Used to create feature matrices to train models
-
-----------------------------
-
-- fit_SVM
-- fit_CNN
-- fit_autoML
-Used to train models. Only fit_autoML models were considered in the final dissertation
-
-----------------------------
-
-- data_visualisations
-- results_visualisations
-Used to create visualisations for dissertation
-
-----------------------------
+<br>
+Data is not available due to a NDA.
