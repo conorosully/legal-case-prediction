@@ -75,4 +75,4 @@ The full project can be found in src folder and the files are described below.
 </table>
 
 <br>
-Data is not available due to a NDA.
+Dataset is not available due to a NDA.
