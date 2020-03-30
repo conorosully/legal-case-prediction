@@ -42,11 +42,15 @@ The full project can be found in src folder and the files are described below.
   </tr>
   <tr>
     <td>create_embeddings</td>
-    <td>Create word echr2vec embeddings using ECHR documents</td>
+    <td>Create word echr2vec embeddings using ECHR documents. This is a novel word embedding created using the word2vec algorithm.</td>
   </tr>
   <tr>
     <td>create_features</td>
     <td>Create N-gram, average word embeddings and pharagraph embeddings feature matrices</td>
+  </tr>
+    <tr>
+    <td>fit_autoML</td>
+    <td>Used to train models using the AutoML framework. These are the models presented in the final framework.</td>
   </tr>
   <tr>
     <td>fit_SVM</td>
@@ -57,16 +61,12 @@ The full project can be found in src folder and the files are described below.
     <td>Train CNN (not in final paper)</td>
   </tr>
   <tr>
-    <td>fit_autoML</td>
-    <td>Code used to train models using AutoML framework</td>
-  </tr>
-  <tr>
     <td>data_visualisations</td>
-    <td>Visualise dataset</td>
+    <td>Create various visualisations of the dataset</td>
   </tr>
   <tr>
     <td>results_visualisations</td>
-    <td>Visualise model results</td>
+    <td>Visualise the model results</td>
   </tr>
   <tr>
     <td>archive (folder)</td>
