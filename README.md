@@ -12,7 +12,7 @@ The work looked at predicting the outcome of judicial decisions made by the Euro
 <br>
 <b>Simplified code demonstration:</b>  <a href="https://github.com/conorosully/legal-case-prediction/blob/master/0%20ECHR%20prediction%20demo.ipynb">0 ECHR prediction demo </a>
 <br>
-The full project can be found in src folder and the files are described below.
+The full project can be found in src folder and the files are described below:
   
 
 <table>
