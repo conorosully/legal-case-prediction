@@ -75,4 +75,6 @@ The full project can be found in src folder and the files are described below.
 </table>
 
 <br>
-Dataset is not available due to a NDA.
+Dataset was access through an API provided by <a href="https://www.vizlegal.com/#features"> vizlegal </a>  
+
+
