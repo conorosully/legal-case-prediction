@@ -26,7 +26,7 @@ The full project can be found in src folder and the files are described below:
   </tr>
   <tr>
     <td>obtain_data</td>
-    <td>Obtain raw ECHR data using the API provided by <a href="https://www.vizlegal.com/#features"> vizlegal </a></td>
+    <td>Obtain raw ECHR data using the API</td>
   </tr>
   <tr>
     <td>preclean_data</td>
