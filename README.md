@@ -75,6 +75,6 @@ The full project can be found in src folder and the files are described below.
 </table>
 
 <br>
-Dataset was access through an API provided by <a href="https://www.vizlegal.com/#features"> vizlegal </a>  
+Dataset was accessed through an API provided by <a href="https://www.vizlegal.com/#features"> vizlegal </a>. If you are interested in using the ECHR docset for academic reaons feel free to contact them. 
 
 
